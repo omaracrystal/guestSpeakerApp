@@ -9,5 +9,5 @@
 * npm install chai --save
 * npm install mocha --save
 * npm install chai-http --save
-* npm install mongoose-q --save
-* run test
+* travis-ci.org (create file travis.yml - turn on repository, - important things to distinguish: what version of node, install packages, run tests, deploy) - how do you know what node version you are running? ($ node -v) - when commiting and pushing up, travis should catch what doesn't pass the tests you have build. terms:(nvm - node version manager)
+*
