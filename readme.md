@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/omaracrystal/guestSpeakerApp.svg?branch=master)](https://travis-ci.org/omaracrystal/guestSpeakerApp)
+
 # Continuous Integration and Deployment with GitHub, Travis and Heroku
 
 What is Continuous Integration and Deployment? Why should you use it? Read [this](https://css-tricks.com/continuous-integration-continuous-deployment/).
