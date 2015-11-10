@@ -14,6 +14,7 @@ https://github.com/gSchool/g11-course-curriculum/blob/master/week15/15_lectures/
 * travis-ci.org (create file .travis.yml - turn on repository, - important things to distinguish: what version of node, install packages, run tests, deploy) - how do you know what node version you are running? ($ node -v) - when commiting and pushing up, travis should catch what doesn't pass the tests you have build.
 
 Heroku
+* install heroku toolbelt if it is not already on your computer
 * $ heroku create <new name>
 * side note - if you do not specify what node version you are using when pushing up to heroku it will choose for you.
 * $ git add .
