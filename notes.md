@@ -22,14 +22,26 @@ Heroku
 * $ git push (see readme.md)
 * once pushed your .travis.yml the api_key will update etc.
 
-
 * now sync heroku and travis.ci
 * $travis setup heroku
 * ^^ install if needed ^^
+
+Folder Tests
+* create folders and test files
+* run tests > $ istanbul cover _mocha -- --recursive -R spec
+* .gitignore
+* package.json >
+"scripts": test": "mocha --recursive",
+"cov": "istanbul conver _mocha -- --recursive -R spec"
+$ npm test <this now works shorter syntax>
+
+
+
 
 Terms
 * MIT license
 * nvm - node version manager
 * regressions - when you right code and it breaks (keep master clean)
-
+* istanbul.js (All-javascript instrumentation library that tracks statement, branch, and function coverage and reverse-engineers line coverage with 100% fidelity.)
+* when testing $ istanbul cover _mocha -- --recursive -R spec
 
